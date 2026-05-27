@@ -1,7 +1,3 @@
-
-
-script.js
-Javascript// Função para adicionar número na tela
 function pressKey(num) {
     const screen = document.getElementById("screen");
     if (screen.innerText === "Digite...") {
