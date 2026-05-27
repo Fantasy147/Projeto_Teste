@@ -6,13 +6,9 @@ function pressKey(num) {
         screen.innerText += num;
     }
 }
-
-// Função para limpar a tela
 function clearScreen() {
     document.getElementById("screen").innerText = "Digite...";
 }
-
-
 function callNumber() {
     const number = document.getElementById("screen").innerText;
     if (number === "Digite..." || number.trim() === "") {
